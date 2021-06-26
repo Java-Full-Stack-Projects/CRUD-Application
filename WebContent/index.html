@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+  background-color: cyan;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>
+</head>
+<body>
+	<div class="sidenav">
+  <a href="register.jsp">Register</a>
+  <a href="search.jsp">Search</a>
+  <a href="update.jsp">Update</a>
+  <a href="delete.jsp">Delete</a>
+  <a href="display.jsp">Display</a>
+</div>
+
+<div class="main">
+<h2><center><u>Customer Management</u></center></h2>
+<p>Customer Data is a precious asset to any business or Company.
+A team that has clean, accurate data that is correctly formatted will be 
+able to provide an appropriate level  of service while saving time and money.</p>
+
+<p>Storing customer data on emails, spreadsheets or paper is a task in itself. 
+It is very tedious to retrieve data from such sources, and there are high chances 
+of this information to be misplaced or deleted because it is unorganized.</p>
+
+<p> That’s when a Customer Management System comes into the picture.
+A customer management system is a cluster of all the systems, processes, 
+and applications that are needed to manage customer relationships. 
+It is also commonly known as Customer Relationship Management.</p>
+</body>
+</html>

@@ -1,0 +1,29 @@
+@charset "ISO-8859-1";
+#cust{
+	margin:50%,50%,auto,auto;
+	align-self:center;
+	font-family:serif;
+	border-collapse: collapse;
+	width: 100%;
+}
+#cust td,#cust th{
+	border: 5px solid rgb(0, 0, 0)k;
+	padding: 8px;
+	font-weight: bold;
+}
+#cust tr:nth-child(even)
+{
+	background-color: #f2f2f2;
+}
+#cust tr:hover{
+	background-color: #ddd;
+}
+#cust th
+{
+	font-weight: bold;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: center;
+	background-color: black;
+	color:white;
+}

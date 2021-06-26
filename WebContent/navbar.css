@@ -1,0 +1,11 @@
+.bg-custom {
+    background-color: black;
+}
+
+.c-head {
+    background-color: darkturquoise;
+}
+
+.nav-link:hover {
+    color: tomato;
+}
